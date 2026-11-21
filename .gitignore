@@ -1,0 +1,30 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Environment Variables & Sensitive Secrets
+.env
+*.env.local
+.streamlit/secrets.toml
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Streamlit Local Runtime
+.streamlit/*.local.toml
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+desktop.ini
